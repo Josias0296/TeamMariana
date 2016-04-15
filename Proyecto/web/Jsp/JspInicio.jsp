@@ -1054,7 +1054,7 @@
 
         <!-- Custom-JavaScript-File-Links -->
         <!-- Supportive-JavaScript --> <script type="text/javascript" src="../Js/jquery.min.js"></script>
-        <!-- Necessary-JavaScript-File-For-Bootstrap --> <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- Necessary-JavaScript-File-For-Bootstrap --> <script type="text/javascript" src="../Js/bootstrap.min.js"></script>
 
         <!-- Slideanim-JavaScript -->
         <script type="text/javascript">
