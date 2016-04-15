@@ -18,7 +18,7 @@ CONSTRAINT UQ_usuario UNIQUE(usuario)
 );
 go
 
-
+drop table usuario;
 
 create table proveedores(
 idProvedor int not null identity(1,1),
@@ -33,12 +33,25 @@ CONSTRAINT UQ_Proveedor UNIQUE(nombre)
 );
 go
 
+drop table proveedores;
 
 
-create table productos(
-idProducto int not null identity(1,1) primary key,
+
+create table producto(
+idProducto int not null identity(1,1),
 nombre varchar(100) not null,
 descripcion varchar(255) not null,
 provedor_idProvedor int not null,
+urlImg varchar(255) not null,
+urlTxt varchar(255)not null,
+CONSTRAINT pk_Producto PRIMARY KEY (idProducto),
+CONSTRAINT fk_producto_proveedor FOREIGN KEY(provedor_idProvedor)
+REFERENCES Proveedores (idProvedor)
+);
+go
+
+
+
+
  
 
