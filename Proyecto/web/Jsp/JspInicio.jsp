@@ -1053,7 +1053,7 @@
         <!-- //Footer -->
 
         <!-- Custom-JavaScript-File-Links -->
-        <!-- Supportive-JavaScript --> <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- Supportive-JavaScript --> <script type="text/javascript" src="../Js/jquery.min.js"></script>
         <!-- Necessary-JavaScript-File-For-Bootstrap --> <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
         <!-- Slideanim-JavaScript -->
@@ -1136,11 +1136,11 @@
         <!-- Skills-Animation-JavaScript -->
         <script type="text/javascript" src="../Js/jquery.inview.min.js"></script>
         <script type="text/javascript" src="../Js/wow.min.js"></script>
-        <script type="text/javascript" src="js/mousescroll.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="../Js/mousescroll.js"></script>
+        <script type="text/javascript" src="../Js/main.js"></script>
         <!-- //Skills-Animation-JavaScript -->
 
-        <script type="text/javascript" src="js/numscroller-1.0.js"></script>
+        <script type="text/javascript" src="../Js/numscroller-1.0.js"></script>
 
         <!-- //Custom-JavaScript-File-Links -->
 
